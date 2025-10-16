@@ -1,3 +1,26 @@
 body {
   background-color: #f4f4f9;
 }
+
+
+/** for large devices **/
+@media (min-width: 992px){
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/** for medium devices **/
+@media (min-width: 768px and max-width: 991px){
+  #p1 {
+    width: 50%;
+  }
+  #p2 {
+    width: 100px;
+    height: 100px;
+  }
+}
