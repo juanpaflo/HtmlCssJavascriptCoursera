@@ -6,6 +6,7 @@ body {
 /** for large devices **/
 @media (min-width: 992px){
   h1 {
+    font-family: sans-serif;
     font-size: 24px;
   }
   p {
@@ -22,6 +23,7 @@ body {
 /** for medium devices **/
 @media (min-width: 768px and max-width: 991px){
     h1 {
+      font-family: helvetica;
     font-size: 12px;
   }
   p {
@@ -39,6 +41,7 @@ body {
 @media (max-width: 767px){
     h1 {
     font-size: 6px;
+      font-family: Arial;
   }
   p {
     width: 25%;
