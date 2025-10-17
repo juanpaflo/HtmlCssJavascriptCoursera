@@ -29,9 +29,7 @@ h2.Beef {
 h2.Sushi {
   background-color: #F2D77C;
 }
-section {
-clear: left;
-}
+
 
 #p1 {
   position: relative;
@@ -39,7 +37,7 @@ clear: left;
   left: 0;
 }
 
-div.col-lg-3 col-md-6 col-sm-9{
+section{
   position: absolute;
   border: 1px solid black;
   background-color: #ADADAD;  
