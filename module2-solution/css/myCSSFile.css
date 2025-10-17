@@ -12,6 +12,13 @@ h1 {
   margin-bottom: 15px;
 }
 
+h2 {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;
+}
+
 h2.chicken {
   background-color: #F29D8D;
 }
@@ -24,9 +31,7 @@ h2.sushi {
 #p1 {
   border: 1px solid black;
   background-color: #A52A2A;
-  position: relative;
-  top: 65px;
-  left: 65px;
+  
 }
 #p2 {
   background-color: #DEB887;
@@ -40,8 +45,8 @@ h2.sushi {
 
 div {
   background-color: ##00FFFF;
-  position: relative;
-  top: 60px;
+  position: absolute;
+  border: 1px solid black;
 }
 
 /** for large devices **/
