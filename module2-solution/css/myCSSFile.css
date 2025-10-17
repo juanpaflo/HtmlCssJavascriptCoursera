@@ -12,13 +12,13 @@ h1 {
   margin-bottom: 15px;
 }
 
-#sect1 h2 {
+h2.chicken {
   background-color: #F29D8D;
 }
-#sect2 h2 {
+h2.beef {
   background-color: #D44B35;
 }
-#sect3 h2 {
+h2.sushi {
   background-color: #F2D77C;
 }
 #p1 {
