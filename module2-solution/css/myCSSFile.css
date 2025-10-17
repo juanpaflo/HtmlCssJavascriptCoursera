@@ -9,8 +9,9 @@
 }
 
 h1 {
-  margin-bottom: 15px;
   text-align: center;
+  padding: 20px;
+  margin: 20px;
 }
 
 h2 {
@@ -36,6 +37,7 @@ h2.Sushi {
 
 #p1 {
   position: absolute;
+  float: left;
   top: 10px;
   left: 10px;
 }
