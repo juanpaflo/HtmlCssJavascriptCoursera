@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  position: relative;
+  position: absolute;
   top: 0px;
   right: 0px;
   border: 1px solid black;
@@ -22,23 +22,26 @@ h2 {
 
 h2.Chicken {
   background-color: #F29D8D;
+  text-align: center;
 }
 h2.Beef {
   background-color: #D44B35;
+   text-align: center;
 }
 h2.Sushi {
   background-color: #F2D77C;
+  text-align: center;
 }
 
 
 #p1 {
-  position: relative;
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 section{
-  position: absolute;
+  position: relative;
   border: 1px solid black;
   background-color: #ADADAD;  
   width: 25%;
