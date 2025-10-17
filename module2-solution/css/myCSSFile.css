@@ -10,6 +10,7 @@
 
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 h2 {
@@ -19,35 +20,28 @@ h2 {
   border: 1px solid black;
 }
 
-h2.chicken {
+h2.Chicken {
   background-color: #F29D8D;
 }
-h2.beef {
+h2.Beef {
   background-color: #D44B35;
 }
-h2.sushi {
+h2.Sushi {
   background-color: #F2D77C;
 }
-#p1 {
+section {
+  position: absolute;
   border: 1px solid black;
-  background-color: #A52A2A;
-  
+  background-color: #ADADAD;  
 }
-#p2 {
-  background-color: #DEB887;
-}
-#p3 {
-  background-color: #5F9EA0;
+
+#p1 {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-div {
-  background-color: ##00FFFF;
-  position: absolute;
-  border: 1px solid black;
-}
+
 
 /** for large devices **/
 @media (min-width: 992px){
