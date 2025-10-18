@@ -18,6 +18,7 @@ h2 {
   top: 0px;
   right: 0px;
   border: 1px solid black;
+  float: left;
 }
 
 h2.Chicken {
@@ -52,7 +53,6 @@ section{
   font-family: Helvetica;
   padding: 10px;
   margin: 10px;
-  float: left
 }
 
 
