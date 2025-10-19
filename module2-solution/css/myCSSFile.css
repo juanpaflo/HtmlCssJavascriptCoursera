@@ -31,7 +31,7 @@ h2 {
   top: 0px;
   right: 0px;
   border: 1px solid black;
-  float: left;
+  float: none;
 }
 
 h2.Chicken {
@@ -47,15 +47,8 @@ h2.Sushi {
   text-align: center;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 #p1 {
-  clear: both;
-  color: blue;
+  color: black;
 }
 
 
