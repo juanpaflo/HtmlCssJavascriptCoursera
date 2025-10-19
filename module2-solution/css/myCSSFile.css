@@ -37,8 +37,8 @@ h2.Sushi {
 
 #p1 {
   
-  clear: both;
-  
+  clear: left;
+  color: blue;
 }
 
 section{
