@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .row {
@@ -17,14 +17,14 @@ section{
   margin-left: auto;
   margin-right: auto;
   font-family: Helvetica;
-  padding: 15px;
-  margin: 15px;
-  overflow: auto;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
 }
 
 h1 {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 h2 {
@@ -50,10 +50,8 @@ h2.Sushi {
 
 #p1 {
   clear: both;
-  color: black;
-  
+  color: black;  
 }
-
 
 
 
