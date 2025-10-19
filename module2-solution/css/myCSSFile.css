@@ -54,10 +54,12 @@ h2.Sushi {
 }
 
 #p1 {
-  clear: left;
-  color: blue;
+  
+  color: red;
 }
-
+div {
+  clear: left;
+}
 
 
 
