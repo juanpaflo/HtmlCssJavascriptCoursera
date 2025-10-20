@@ -5,7 +5,7 @@
 }
 
 .row {
-  width: 90%;
+  width: 100%;
 }
 
 div {
@@ -55,11 +55,11 @@ section {
 }
 #p1 {
   position: relative;
-  top: 15px;
+  top: 25px;
   left: 5px;
   padding: 5px;
   clear: both;
-  color: blue;
+  color: black;
   overflow: auto;
 }
 
