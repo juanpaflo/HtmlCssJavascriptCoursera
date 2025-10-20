@@ -49,7 +49,7 @@ h2.Sushi {
 }
 
 #p1 {
-  float: right;
+  clear: right;
   color: black;  
 }
 
