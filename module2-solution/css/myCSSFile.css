@@ -54,9 +54,8 @@ section {
   width: 100%;
 }
 p {
-  position: relative;
   clear: both;
-  color: black;
+  color: blue;
 }
 
 
