@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-section{
+.row > div {
   position: relative;
   border: 1px solid black;
   background-color: #ADADAD;
