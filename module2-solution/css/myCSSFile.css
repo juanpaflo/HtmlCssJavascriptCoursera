@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   position: absolute;
+  padding: 5px;
   top: 0px;
   right: 0px;
   border: 1px solid black;
@@ -47,11 +48,17 @@ h2.Sushi {
   background-color: #F2D77C;
   text-align: center;
 }
-
-#p1 {
-  clear: right;
-  color: black;  
+section {
+  position: relative;
+  padding: 10px;
+  width: 100%;
 }
+p {
+  position: relative;
+  clear: right;
+  color: blue;
+}
+
 
 
 
