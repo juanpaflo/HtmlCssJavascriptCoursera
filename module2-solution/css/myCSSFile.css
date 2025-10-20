@@ -8,7 +8,7 @@
   width: 90%;
 }
 
-.row > div {
+div {
   position: relative;
   border: 1px solid black;
   background-color: #ADADAD;
