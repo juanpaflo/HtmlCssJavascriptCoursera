@@ -55,12 +55,11 @@ section {
 }
 #p1 {
   position: relative;
-  top: 5px;
+  top: 15px;
   left: 5px;
   padding: 5px;
-  border: none;
-  clear: right;
-  color: black;
+  clear: both;
+  color: blue;
   overflow: auto;
 }
 
