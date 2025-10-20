@@ -53,10 +53,12 @@ section {
   padding: 10px;
   width: 100%;
 }
-p {
+#p1 {
   padding: 5px;
+  border: none;
   clear: right;
   color: black;
+  overflow: auto;
 }
 
 
