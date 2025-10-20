@@ -54,6 +54,9 @@ section {
   width: 100%;
 }
 #p1 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
   padding: 5px;
   border: none;
   clear: right;
