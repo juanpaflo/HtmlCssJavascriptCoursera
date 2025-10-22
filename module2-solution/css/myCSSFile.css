@@ -53,9 +53,9 @@ h2.Sushi {
 }
 section {
   position: relative;
-  padding: 5px;
-  margin: 5px;
-  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
 }
 #p1 {
   position: relative;
@@ -84,10 +84,10 @@ float: left;
     width: 16.66%;
   }
 .col-lg-3 {
-    width: 25%;
+    width: 24%;
   }
 .col-lg-4 {
-    width: 33.33%;
+    width: 32%;
   }
 .col-lg-5 {
     width: 41.66%;
