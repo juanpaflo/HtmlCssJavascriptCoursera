@@ -12,8 +12,8 @@ div {
   position: relative;
   border: 1px solid black;
   background-color: #ADADAD;
-  width: 90%;
-  height: 180px;
+  width: 100%;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   font-family: Helvetica;
