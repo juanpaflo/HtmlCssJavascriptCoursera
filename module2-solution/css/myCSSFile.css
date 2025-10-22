@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 5px;
   padding: 0; 
 }
 
 .row {
-  width: 90%;
+  width: 100%;
 }
 
 div {
@@ -52,7 +52,7 @@ h2.Sushi {
 section {
   position: relative;
   padding: 10px;
-  width: 100%;
+  width: 90%;
 }
 #p1 {
   position: relative;
