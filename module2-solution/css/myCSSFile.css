@@ -43,6 +43,7 @@ h2.Chicken {
 h2.Beef {
   background-color: #D44B35;
   text-align: center;
+  color: white;
 }
 h2.Sushi {
   background-color: #F2D77C;
