@@ -19,7 +19,7 @@ div {
   font-family: Helvetica;
   padding: 10px;
   margin: 10px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 h1 {
@@ -55,7 +55,7 @@ section {
 }
 #p1 {
   position: relative;
-  top: 25px;
+  top: 30px;
   left: 5px;
   padding: 5px;
   clear: both;
