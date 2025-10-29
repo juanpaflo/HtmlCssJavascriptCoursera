@@ -20,6 +20,10 @@ body {
 	text-align: middle;
 }
 
+h2 {
+	color: #080808;
+}
+
 #nav-list {
 	margin-top: 10px;
 }
@@ -49,22 +53,20 @@ body {
 }
 
 #Chicken-tile, #Beef-tile, #Sushi-tile {
-	height: 1000px;
+	height: 500px;
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
 	overflow: hidden;
 	background-color: #888888;
 	color: #080808;
-	border-radius: 0;
-	border: 0;
 	text-align: left;
 	background-position: center;
 }
 
 #Chicken-tile span, #Beef-tile span, #Sushi-tile span {
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	right: 0;
 	width: 100%;
 	text-align: center;
