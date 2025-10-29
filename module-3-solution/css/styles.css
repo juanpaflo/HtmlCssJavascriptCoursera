@@ -8,7 +8,7 @@ body {
 #header-nav {
 	background-color: #888888;
 	border-radius: 0;
-	border-bottom: 2px solid #080808;
+	border: 2px solid #080808;
 }
 .navbar-brand h1 {
 	font-family: 'Oxygen', sans-serif;
@@ -17,7 +17,7 @@ body {
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: left;
+	text-align: middle;
 }
 
 #nav-list {
@@ -48,106 +48,30 @@ body {
 		border: 2px solid #3F0C1F
 }
 
-#chicken-tile, #beef-tile, #sushi-tile {
+#Chicken-tile, #Beef-tile, #Sushi-tile {
 	height: 1000px;
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
 	overflow: hidden;
 	background-color: #888888;
+	color: #080808;
 	border-radius: 0;
 	border: 0;
-}
-#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
-	box-shadow: 0 1px 5px 1px #CCCCCC;
-}
-
-#chicken-tile, #beef-tile, #sushi-tile {
 	text-align: left;
 	background-position: center;
 }
 
-#chicken-tile span, #beef-tile span, #sushi-tile span {
+#Chicken-tile span, #Beef-tile span, #Sushi-tile span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 100%;
 	text-align: center;
 	font-size: 1.6em;
-	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: .8;	
+	color: #080808;
 }
 
-.category-tile {
-	position: relative;
-	border: 2px solid #3F0C1F;
-	overflow: hidden;
-	width: 200px;
-	height: 200px;
-	margin: 0 auto 15px;
-}
-.category-tile span {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	text-align: center;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: .8;	
-}
-
-#menu-categories-title + div {
-	margin-bottom: 50px;
-}
-
-.menu-item-tile {
-	margin-bottom: 25px;
-}
-.menu-item-tile hr {
-	width: 80%;
-}
-.menu-item-tile .menu-item-price {
-	font-size: 1.1em;
-	text-align: right;
-	margin-top: -15px;
-	margin-right: -15px;
-}
-.menu-item-tile .menu-item-price span {
-	font-size: .6em;
-}
-.menu-item-photo {
-	position: relative;
-	border: 2px solid #3F0C1F;
-	overflow: hidden;
-	padding: 0;
-	margin-right: -15px;
-	margin-left: auto;
-	margin-bottom: 20px;
-	max-width: 250px;
-}
-.menu-item-photo div {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 80px;
-	background-color: #557c3e;
-	text-align: center;
-}
-.menu-item-description {
-	padding-right: 30px;
-}
-h3.menu-item-title {
-	margin: 0 0 10px;
-}
-.menu-item-details {
-	font-size: .9em;
-	font-style: italic;
-}
 
 /**Large devices**/
 @media (min-width: 1200px) {
