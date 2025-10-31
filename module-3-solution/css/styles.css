@@ -4,6 +4,10 @@ body {
 	background-color: #ffffff;
 	font-family: 'Oxygen', sans-serif;
 }
+.row {
+    width: 100%;
+    align-content: center;
+}
 
 #header-nav {
 	background-color: #888888;
@@ -13,39 +17,49 @@ body {
 .navbar-brand h1 {
 	font-family: 'Oxygen', sans-serif;
 	color: #080808;
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-weight: bold;
-	margin-top: 0;
-	margin-bottom: 0;
-	text-align: middle;
+    margin: auto;
+	text-align: left;
 }
 
 h2 {
 	color: #080808;
 	text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 5px;
 }
 
 #nav-list {
-	margin-top: 10px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #080808;
+    background: #fff;
 }
 #nav-list a {
 	color: #080808;
+    border: 1.5px solid #080808;
 	text-align: center;
 }
 #nav-list a:hover {
 	background: #888888;
 }
 #nav-list a span {
-	font-size: 1.8em;
+	font-size: 1.6em;
+    background: #fff;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 1px solid #888888;
+	border: 1px solid #080808;
+    background-color: #080808;
 }
 
 .navbar-header button.navbar-toggle {
 	clear: both;
-	margin-top: -30px;
+    border: 1.5px solid #080808;
+	margin-top: -50px;
+    background: #888888;
 }
 .navbar-brand p {
 	color: #000;
@@ -63,47 +77,52 @@ h2 {
 	color: #080808;
 	text-align: left;
 	background-position: center;
+    overflow: auto;
+    
 }
 
 #Chicken-tile span, #Beef-tile span, #Sushi-tile span {
 	position: absolute;
-	top: 0;
-	right: 0;
+    margin-top: 10px;
 	width: 100%;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 1.3em;
+	color: #080808;
+    font-weight: bold;
+}
+
+p {
+	position: relative;
+    margin-top: 30px;
+    padding: 20px;
+	width: 100%;
+	text-align: left;
+	font-size: 1em;
 	color: #080808;
 }
 
 
 /**Large devices**/
 @media (min-width: 1200px) {
-	.container .jumbotron {
-		background: url('../images/jumbotron_1200.jpg') no-repeat;
-		height: 675px;
+	.navbar-brand h1 {
+        position:absolute;
+        top: 15%;
 	}
 }
 
 /**Medium devices**/
 @media (min-width: 992px) and (max-width: 1199px) {
-	#logo-img {
-		background: url('../images/restaurant-logo_medium.png') no-repeat;
-		width: 100px;
-		height: 100px;
-		margin: 5px 5px 5px 0;
-	}
-	.container .jumbotron {
-		background: url('../images/jumbotron_992.jpg') no-repeat;
-		height: 558px;
+	.navbar-brand h1 {
+        position:absolute;
+        top: 15%;
 	}
 }
 
 /**Small devices**/
 @media (min-width: 768px) and (max-width: 991px) {
-	.container .jumbotron {
-		background: url('../images/jumbotron_768.jpg') no-repeat;
-		height: 432px;
-
+	.navbar-brand h1 {
+        position:absolute;
+        top: 15%;
 	}
 }
 
@@ -115,16 +134,8 @@ h2 {
 		height: 80px;
 	}
 	.navbar-brand h1 {
-		padding-top: 10px;
-		font-size: 5vw;
-	}
-	.navbar-brand p {
-		text-transform: uppercase;
-		font-size: .6em;
-		margin-top: 12px;
-	}
-	.navbar-brand p img {
-		height: 20px;
+        position:relative;
+        top: 30%;
 	}
 
 	#collapsable-nav a {
@@ -154,47 +165,16 @@ h2 {
 		margin-top: 30px;
 		padding: 0;
 	}
-	#menu-tile, #specials-tile {
+	#Chicken-tile, #Beef-tile, #Sushi-tile {
 		width: 360px;
 		margin: 0 auto 15px;
-	}
-	.menu-item-photo {
-		margin-right: auto;
-	}
-	.menu-item-tile .menu-item-price {
-		text-align: center;
-	}
-	.menu-item-description {
-		text-align: center;
 	}
 }
 
 /**Super Extra small devices**/
 @media (max-width: 479px) {
 	.navbar-brand h1 {
-		padding-top: 5px;
-		font-size: 6vw;
-	}
-
-	#menu-tile, #specials-tile {
-		width: 280px;
-		margin: 0 auto 15px;
-	}
-	.col-xxs-12{
-		position: relative;
-		min-height: 1px;
-		padding-right: 15px;
-		padding-left: 15px;
-		float: left;
-		width: 100%;
-	}
-	.menu-item-photo {
-		margin-right: auto;
-	}
-	.menu-item-tile .menu-item-price {
-		text-align: center;
-	}
-	.menu-item-description {
-		text-align: center;
+        position:relative;
+        top: 25%;
 	}
 }
